@@ -3,14 +3,18 @@
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
+1. Create expo app
+   ```bash
+   npx create-expo-app --template [default/blank/tab]
+   ```
 
-1. Install dependencies
+2. Install dependencies
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Start the app
 
    ```bash
    npx expo start
@@ -34,6 +38,7 @@ npm run reset-project
 ```
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+or you will also have option to delete all the unnecessary code without moving to **app-example**.
 
 ## Learn more
 
